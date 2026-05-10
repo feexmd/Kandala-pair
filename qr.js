@@ -67,16 +67,16 @@ router.get('/', async (req, res) => {
 
                     let FEE_XMD_TEXT = `
 📌 *Need Assistance? Reach Out Anytime:*  
-• 👑 *Owner:* https://wa.me/255752593977  
-• 💬 *Group Chat:* https://chat.whatsapp.com/DU79JfdnOI83ZFVAyD74Mo?mode=gi_t  
-• 📢 *Channel:*  https://whatsapp.com/channel/0029VbC9TRPCnA80RfS3Oi1V
+• 👑 *Owner:* https://wa.me/255672752355  
+• 💬 *Group Chat:* https://chat.whatsapp.com/Foy4FSXyTk8GmazVXQMhHM  
+• 📢 *Channel:*  https://whatsapp.com/channel/0029VbBomqO23n3eqFNZGK3K
 • 📸 *Instagram:* https://www.instagram.com/frediezra  
-• 💻 *GitHub Repo:* https://github.com/Mrandbad/ANDBAD-MD-V2
+• 💻 *GitHub Repo:* https://github.com/kandala20/kandala-xmd1
 
-🧠 *Support Andbadtz Project:*  
+🧠 *Support kandala Project:*  
 ⭐ Star & 🍴 Fork the repo to stay updated with new features!
 
-🎄 *#Andbadtz*`;
+🎄 *#kandala*`;
 
                     await Qr_Code_By_Fredi.sendMessage(Qr_Code_By_Fredi.user.id, { text: FEE_XMD_TEXT }, { quoted: session });
 
