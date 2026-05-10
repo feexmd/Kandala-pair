@@ -152,14 +152,14 @@ router.get('/', async (req, res) => {
 
                         const infoMessage = `  
 📌 *Need Assistance? Reach Out Anytime:*   
-• 💬 *Group Chat:* https://chat.whatsapp.com/DU79JfdnOI83ZFVAyD74Mo?mode=gi_t  
-• 📢 *Channel:*  https://whatsapp.com/channel/0029VbC9TRPCnA80RfS3Oi1V  
-• 💻 *GitHub Repo:* https://github.com/Mrandbad/ANDBAD-MD-V2
+• 💬 *Group Chat:* https://chat.whatsapp.com/Foy4FSXyTk8GmazVXQMhHM  
+• 📢 *Channel:*  https://whatsapp.com/channel/0029VbBomqO23n3eqFNZGK3K  
+• 💻 *GitHub Repo:* https://github.com/kandala20/kandala-xmd1
 
-🧠 *Support Andbadtz Project:*  
+🧠 *Support kandala Project:*  
 ⭐ Star & 🍴 Fork the repo to stay updated with new features!
 
- *#Andbadtz*
+ *#kandalatech*
 `;
 
                         await sock.sendMessage(sock.user.id, { text: infoMessage }, { quoted: sentSession });
