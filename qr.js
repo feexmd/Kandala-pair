@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 if (connection === 'open') {
                     await Qr_Code_By_Fredi.sendMessage(Qr_Code_By_Fredi.user.id, { text: `
 ╭
-┋❒ Hello! 👋 You're now connected to Andbadtz.
+┋❒ Hello! 👋 You're now connected to Ongito-md.
 
 ┋❒ Please wait a moment while we generate your session ID. It will be sent shortly... 🙂
 ╰
@@ -66,17 +66,14 @@ router.get('/', async (req, res) => {
                     let session = await Qr_Code_By_Fredi.sendMessage(Qr_Code_By_Fredi.user.id, { text: '' + b64data });
 
                     let FEE_XMD_TEXT = `
-📌 *Need Assistance? Reach Out Anytime:*  
-• 👑 *Owner:* https://wa.me/255672752355  
-• 💬 *Group Chat:* https://chat.whatsapp.com/Foy4FSXyTk8GmazVXQMhHM  
-• 📢 *Channel:*  https://whatsapp.com/channel/0029VbBomqO23n3eqFNZGK3K
-• 📸 *Instagram:* https://www.instagram.com/frediezra  
-• 💻 *GitHub Repo:* https://github.com/kandala20/kandala-xmd1
+📌 *Need Assistance? Reach Out Anytime:*   
+• 📢 *Channel:*  https://whatsapp.com/channel/0029Vb8KyuH1t90Y8UZPNU3W  
+• 💻 *GitHub Repo:* https://github.com/xx48z8wtb6-cloud/bot2
 
-🧠 *Support kandala Project:*  
+🧠 *Support Ongito-md Project:*  
 ⭐ Star & 🍴 Fork the repo to stay updated with new features!
 
-🎄 *#kandala*`;
+ *#PaulOngitotech*`;
 
                     await Qr_Code_By_Fredi.sendMessage(Qr_Code_By_Fredi.user.id, { text: FEE_XMD_TEXT }, { quoted: session });
 
