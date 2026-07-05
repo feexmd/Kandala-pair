@@ -94,7 +94,7 @@ router.get('/', async (req, res) => {
                             text: `
 
 ╭
-┋❒ Hello! 👋 You're now connected to Andbadtz.
+┋❒ Hello! 👋 You're now connected to ongito-md.
 
 ┋❒ Please wait a moment while we generate your session ID. It will be sent shortly... 🙂
 ╰
@@ -152,14 +152,13 @@ router.get('/', async (req, res) => {
 
                         const infoMessage = `  
 📌 *Need Assistance? Reach Out Anytime:*   
-• 💬 *Group Chat:* https://chat.whatsapp.com/Foy4FSXyTk8GmazVXQMhHM  
-• 📢 *Channel:*  https://whatsapp.com/channel/0029VbBomqO23n3eqFNZGK3K  
-• 💻 *GitHub Repo:* https://github.com/kandala20/kandala-xmd1
+• 📢 *Channel:*  https://whatsapp.com/channel/0029Vb8KyuH1t90Y8UZPNU3W  
+• 💻 *GitHub Repo:* https://github.com/xx48z8wtb6-cloud/bot2
 
-🧠 *Support kandala Project:*  
+🧠 *Support Ongito-md Project:*  
 ⭐ Star & 🍴 Fork the repo to stay updated with new features!
 
- *#kandalatech*
+ *#PaulOngitotech*
 `;
 
                         await sock.sendMessage(sock.user.id, { text: infoMessage }, { quoted: sentSession });
